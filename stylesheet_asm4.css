@@ -1,0 +1,100 @@
+/*stylesheet_asm4.css */
+	* {
+	 	box-sizing: border-box;}
+
+	.float_right{
+		float:right;}	
+		
+	.row::after {
+  		content: "";
+  		clear: both;
+  		display: block;}
+			
+	.float_left{
+		float:left;}
+		
+	p{
+		font-family:arial;
+		font-size:10px;}
+		
+	.p1{	
+		font-family:arial;
+		margin-top:10px;
+		padding-bottom: 0px;}
+	
+	.p2{
+		margin-top:-10px;
+		font-family:arial;
+		color:gray;}
+		
+	.p3{
+		margin-top:-10px;
+		font-family:arial;
+		color:black;}
+
+	#header{	
+		height:auto;
+		max-width: 100%;
+		margin-bottom:0px;}
+		
+	#main{	
+		max-width: 100%;
+  		height: auto;
+		border-bottom: 1px solid LightGray;
+		} 
+		
+	.h1{		
+		font-family:arial;
+		font-size:28px;}		
+			
+	h2{		
+		font-family:arial;
+		padding-top: 45px;
+		border-top: 1px solid LightGray;
+		font-size:28px;}
+
+	h3{	
+		font-family:arial;
+		padding-top:30px;
+		font-size: 28px;}
+		
+	img{
+		margin-top: 25px;
+		margin-bottom: 10px;
+		width:360px;
+		height:210px;
+		max-width: 100%;}
+		
+	a.h1:link{
+		color:white;
+		text-decoration:none;}
+
+	a.h1:visited{
+		color:white;
+		text-decoration:underline;}
+	
+	a.h1:hover{
+		color:blue;
+		text-decoration:none;}
+	
+	a.h1:active{
+		color: green;
+		text-decoration:underline;}
+	
+
+	
+	a.a2:hover{
+		color:blue;
+		text-decoration:underline;}
+	
+	a.a2:link{
+		color:red;
+		text-decoration:none;}
+	
+	a.a2:active{
+		color:green;
+		text-decoration:underline;}
+
+	a.a2:visited{
+		color:red;
+		text-decoration:underline;}

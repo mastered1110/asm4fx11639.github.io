@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="asm4">
+	<meta name="keywords" content="Hà Nội,chùa Bộc,Tây Sơn,anh hùng áo vải,di tích">
+	<link rel="stylesheet" href="stylesheet_asm4.css">
+<?php
+if(stristr($_SERVER['HTTP_USER_AGENT'], "Mobile")){ // if mobile browser
+?>
+<link rel="stylesheet" href="mobile-4.css" type="text/css" />
+<?php
+}
+if(stristr($_SERVER['HTTP_USER_AGENT'], "Tablet")){ // if tablet browser
+?>
+<link rel="stylesheet" href="tablet-4.css" type="text/css" />
+<?php
+}
+else { // desktop browser
+?>
+<link rel="stylesheet" href="desktop-4.css" type="text/css" />
+<?php
+}
+?>
+</head>
+
+<body>
+
+<div id="header" class="row">
+	<a class="h1" href="kham-pha.html" target="_blank" title="chùa Bộc"><b>Khám phá chùa Bộc</b></a>
+	<p class="p1">Nơi tôn vinh người anh hùng áo vải</p>
+	<div class="float_left col-3">
+	<h3><b>Lịch sử</b></h3>
+		<p class="p3">Một di tích lịch sử ghi dấu chiến công của nghĩa quân Tây Sơn đánh bại quân xâm lược Mãn Thanh vào Tết Kỷ Dậu 1789.</p>
+		<p class="p4"><a class="a2" href="Lich-su.html" target="_blank" title="Lịch sử chùa Bộc">Tìm hiểu thêm</a></p>
+	</div>
+	<div class="float_left col-3">	
+	<h3><b>Kiến trúc</b></h3>
+		<p class="p3">Chùa được xây lên theo hình chữ "Đinh”</p>
+		<p class="p4"><a class="a2" href="Kien-truc.html" target="_blank"title="Kiến trúc chùa Bộc">Tìm hiểu thêm</a></p>
+	</div>
+	<div class="float_left col-3">
+	<h3><b>Di vật được lưu giữ</b></h3>
+		<p class="p3">Chùa bảo tồn được nhiều di vật quý, gồm các pho tượng Phật, một quả chuông đời Cảnh Thịnh và 3 tấm bia cổ.</p>
+		<p class="p4"><a class="a2" href="Di-vat.html" target="_blank" 	title="Di vật chùa Bộc">Tìm hiểu thêm</a></p>
+	</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+/*mobile-4.css */
+@media only screen and (max-width: 768px) 
+{
+ 	[class*="col-"] { width: 100%;}	
+	
+		#header{	
+			background-image: url("images/Chua_Boc_bg.jpg");
+			color:white;}
+			
+		.p1{
+			color:white;}
+	
+		.p3{
+			color:white;}
+			
+		.p4{
+			margin-top:20px;}
+	}
